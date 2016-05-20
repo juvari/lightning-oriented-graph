@@ -1,0 +1,26 @@
+{
+  "name": "lightning-oriented-graph",
+  "version": "0.1.2",
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "d3": "^3.5.17",
+    "d3-multiaxis-zoom": "^1.0.4",
+    "lightning-client-utils": "^0.6.3",
+    "lightning-visualization": "^0.1.0",
+    "lodash": "^3.8.0"
+  },
+  "keywords": [
+    "lightning-visualization"
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "lightning": {
+    "name": "lightning-test"
+  }
+}
